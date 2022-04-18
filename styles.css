@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding:0;
+}
+#hero{
+    height: 100vh;
+}
+.head{
+    background-color: #1c1d1d;
+    width: 100vw;
+    height: fit-content;
+    color: white;
+    margin-bottom: 10px;
+}
+#title{
+    text-align: center;
+}
+.hinfo{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px;
+}
+.hinfo>a{
+    color: red;
+}
+nav{
+    color: white;
+    background-color: rgb(49, 63, 83);
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 2px;
+}
+nav>a   {
+    text-decoration: none;
+    color: white;
+}
+
+.motive{
+    /* border: 1px solid black; */
+    box-shadow: 5px 5px 20px grey;
+    padding:30px;
+    margin: 20px;
+}
+.m1{
+    margin: 20px;
+}
+.m1>h2{
+    color: red;
+}
+.m1>h3{
+    text-align: center;
+}
+.train{
+    text-align: center;
+    box-shadow: 5px 5px 20px grey;
+    padding:30px;
+    margin: 20px;
+}
+.train>h1{
+    margin-bottom: 20px;
+}
+.name{
+    background-color: black;
+    color: white;
+    height: 100px;
+    padding-top: 60px;
+    text-align: center;
+}
+#about{
+    /* text-align: center; */
+    box-shadow: 5px 5px 20px grey;
+    padding:30px;
+    margin: 20px;
+    height: 100vh;
+}
+ul>h3{
+    margin: 19px;
+}
+#history{
+    box-shadow: 5px 5px 20px grey;
+    padding:30px;
+    margin: 20px;
+    height: 100vh;
+}
+#process{
+    box-shadow: 5px 5px 20px grey;
+    padding:30px;
+    margin: 20px;
+    height: 100vh;
+}
+#process>h3{
+    margin: 10px;
+}
+ol>h3{
+    margin: 19px;
+}
+#register{
+    box-shadow: 5px 5px 20px grey;
+    padding:30px;
+    margin: 20px;
+    height: 100vh;
+}
+#contact{
+    box-shadow: 5px 5px 20px grey;
+    padding:30px;
+    margin: 20px;
+    height: 100vh;
+}
+.time{
+    margin: 50px;
+}
+.cinfo{
+    margin: 50px;
+}
+.ainfo{
+    margin: 50px;
+}
+.totalinfo{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+#top{
+    background-color: red;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    border-radius: 50%;
+    border-style: none;
+    display: none;
+    
+}
+.hamburger{
+    width: 50px;
+    height: 50px;
+    color: white;
+    display: none;
+    /* border-style: none; */
+    background-color: transparent;
+    cursor: pointer;
+}
+@media only screen and (max-width:800px){
+
+    nav{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    nav>a{
+        margin: 10px;
+    }
+    .hinfo{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    .hinfo>a{
+        margin: 10px;
+    }
+}
