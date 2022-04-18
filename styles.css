@@ -37,6 +37,7 @@ nav>a   {
 
 .motive{
     /* border: 1px solid black; */
+
     box-shadow: 5px 5px 20px grey;
     padding:30px;
     margin: 20px;
@@ -157,5 +158,8 @@ ol>h3{
     }
     .hinfo>a{
         margin: 10px;
+    }
+    h1,h2,h3,h4,p{
+        font-size: 15px;
     }
 }
