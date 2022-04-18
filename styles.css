@@ -72,7 +72,7 @@ nav>a   {
     box-shadow: 5px 5px 20px grey;
     padding:30px;
     margin: 20px;
-    height: 100vh;
+    height: fit-content;
 }
 ul>h3{
     margin: 19px;
@@ -81,13 +81,13 @@ ul>h3{
     box-shadow: 5px 5px 20px grey;
     padding:30px;
     margin: 20px;
-    height: 100vh;
+    height: fit-content;
 }
 #process{
     box-shadow: 5px 5px 20px grey;
     padding:30px;
     margin: 20px;
-    height: 100vh;
+    height: fit-content;
 }
 #process>h3{
     margin: 10px;
@@ -99,13 +99,13 @@ ol>h3{
     box-shadow: 5px 5px 20px grey;
     padding:30px;
     margin: 20px;
-    height: 100vh;
+    height: fit-content;
 }
 #contact{
     box-shadow: 5px 5px 20px grey;
     padding:30px;
     margin: 20px;
-    height: 100vh;
+    height: fit-content;
 }
 .time{
     margin: 50px;
@@ -151,14 +151,12 @@ ol>h3{
         margin: 10px;
     }
     .hinfo{
-        display: flex;
-        flex-direction: column;
-        margin-bottom: 20px;
-        text-align: center;
+        display: none;
     }
     .hinfo>a{
         margin: 10px;
     }
+    
     h1,h2,h3,h4,p{
         font-size: 15px;
     }
